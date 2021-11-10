@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Rails Back-End!
+# Hello-Rails-Back-End!
 
-> Hello Rails Back-End is an api built in rails which you can use to get a random message. 
+> Hello-Rails-Back-End is an API built in rails which you can use to get a random message. 
 
 ## Built With
 
@@ -61,9 +61,14 @@ Use one of the two links to open the application. Once the application is runnin
 
 Api to get a random message:
 
-| Name     | Endpoint         | Method | Header                           |
-|----------|------------------|--------|----------------------------------|
+| Name      | Endpoint          | Method | Header                           |
+|-----------|-------------------|--------|----------------------------------|
 | Greetings | /api/v1/greetings | GET    | { "Accept": "application/json" } |
+
+### Using API with a React App
+
+To use this app you can use a React app that I built 👉🏼 [hello-react-front-end](https://github.com/ad9311/hello-react-front-end).</br> 
+You will need to launch both applications at the same time, instructions on how to use the react app are in the README file.
 
 ## Contributing
 

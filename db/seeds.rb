@@ -17,7 +17,7 @@ Greeting.create([
   {
     language: 'French',
     flag_code: '0x1F1EB-0x1F1F7',
-    message: 'Bonjour le monde ! Je suis un développeur full-stack.'
+    message: 'Bonjour le monde! Je suis un développeur full-stack.'
   },
   {
     language: 'English',

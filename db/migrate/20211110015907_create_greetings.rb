@@ -2,7 +2,7 @@ class CreateGreetings < ActiveRecord::Migration[6.1]
   def change
     create_table :greetings do |t|
       t.string :language
-      t.string :flag_code
+      t.string :flagCode
       t.string :message
 
       t.timestamps

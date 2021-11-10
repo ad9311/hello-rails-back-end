@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2021_11_10_015907) do
 
   create_table "greetings", force: :cascade do |t|
     t.string "language"
-    t.string "flag_code"
+    t.string "flagCode"
     t.string "message"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
